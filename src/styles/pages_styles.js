@@ -24,11 +24,7 @@ const detail_item = StyleSheet.create({
     fontWeight: 'bold',
   },
   description: {
-    textAlign: 'center',
-  },
-  button: {
-    color: 'red',
-    marginTop: 5,
+    fontSize: 17,
   },
 });
 export {detail_item};

@@ -5,12 +5,15 @@ const category_item = StyleSheet.create({
     backgroundColor: 'white',
     borderWidth: 1,
     borderColor: '#bdbdbd',
-    margin: 8,
     marginVertical: 10,
     borderRadius: 10,
+    margin:10,
+    flex:1
   },
   logo: {
-    height: deviceSize.height / 4,
+    height: deviceSize.height / 6,
+    width: deviceSize.width / 3,
+    alignSelf:"center"
   },
   title: {
     fontWeight: 'bold',
@@ -31,7 +34,6 @@ const meal_item = StyleSheet.create({
   },
   logo: {
     height: deviceSize.height / 3,
-    borderRadius: 10,
   },
   title: {
     color: 'white',

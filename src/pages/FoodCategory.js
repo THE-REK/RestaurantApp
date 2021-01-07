@@ -31,6 +31,7 @@ function FoodCategory(props) {
         keyExtractor={(item) => item.idCategory}
         data={foodCategories}
         renderItem={renderCategory}
+        numColumns={2}
       />
     </View>
   );
